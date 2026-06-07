@@ -11,7 +11,7 @@ namespace Assignment1_EA.Controllers
             new Event
             {
                 id = 1,
-                title = "Tech Conference",
+                title = "Comic Con",
                 date = new DateTime(2026, 6, 7),
                 location = "Ottawa"
             },

@@ -1,0 +1,31 @@
+﻿@model List<Assignment1_EA.Models.Event>
+
+<h2>@ViewData["PageTitle"]</h2>
+
+<table class="table">
+
+    <tr>
+        <th>Title</th>
+        <th>Date</th>
+        <th>Location</th>
+        <th></th>
+    </tr>
+
+    @foreach (var ev in Model)
+    {
+        <tr>
+            <td>@ev.title</td>
+            <td>@ev.date.ToShortDateString()</td>
+            <td>@ev.location</td>
+
+            <td>
+                <a asp-action="ManageAttendees"
+                   asp-route-id="@ev.id"
+                   class="btn btn-primary">
+                    Manage Attendees
+                </a>
+            </td>
+        </tr>
+    }
+
+</table>
