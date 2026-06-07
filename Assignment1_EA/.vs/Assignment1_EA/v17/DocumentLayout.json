@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\NET\\Assignment1\\Assignment1_EA\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|c:\\net\\assignment1\\assignment1_ea\\assignment1_ea\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|solutionrelative:assignment1_ea\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|c:\\net\\assignment1\\assignment1_ea\\assignment1_ea\\models\\userhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|solutionrelative:assignment1_ea\\models\\userhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|c:\\net\\assignment1\\assignment1_ea\\assignment1_ea\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|solutionrelative:assignment1_ea\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "Assignment1_EA\\Controllers\\EventController.cs",
+              "ToolTip": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Controllers\\EventController.cs",
+              "RelativeToolTip": "Assignment1_EA\\Controllers\\EventController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwC8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T21:51:42.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserHandler.cs",
+              "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Models\\UserHandler.cs",
+              "RelativeDocumentMoniker": "Assignment1_EA\\Models\\UserHandler.cs",
+              "ToolTip": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Models\\UserHandler.cs",
+              "RelativeToolTip": "Assignment1_EA\\Models\\UserHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T21:50:22.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "Assignment1_EA\\Models\\Event.cs",
+              "ToolTip": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Models\\Event.cs",
+              "RelativeToolTip": "Assignment1_EA\\Models\\Event.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T21:47:22.009Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
