@@ -1,0 +1,62 @@
+﻿@model Assignment1_EA.Models.Event
+
+<!-- Display event name -->
+<h2>@ViewData["EventName"]</h2>
+
+<!-- Signup form for attendees -->
+<h3>Signup Form</h3>
+
+
+<form asp-action="Signup" method="post">
+    <!-- Hidden field to pass event ID -->
+    <input type="hidden"
+           name="eventId"
+           value="@Model.id" />
+    <!-- Name input -->
+    <div>
+        <label>Name</label>
+        <input type="text"
+               name="name"
+               class="form-control" />
+    </div>
+
+    <br />
+    <!-- Email input -->
+    <div>
+        <label>Email</label>
+        <input type="email"
+               name="email"
+               class="form-control" />
+    </div>
+
+    <br />
+    <!-- Submit button -->
+    <button type="submit"
+            class="btn btn-success">
+        Register
+    </button>
+
+</form>
+
+<hr />
+<!-- Display attendee list -->
+<h3>Attendees</h3>
+<!-- Error checker for attendees -->
+@if (Model.Attendees == null || Model.Attendees.Count == 0)
+{
+    <p>No attendees registered.</p>
+}
+else
+{
+    <ul>
+        <!-- Loop through attendees -->
+        @foreach (var attendee in Model.Attendees)
+        {
+            <li>
+                @attendee.Name
+                (@attendee.Email)
+            </li>
+        }
+
+    </ul>
+}

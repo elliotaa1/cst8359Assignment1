@@ -1,7 +1,13 @@
 ﻿@model List<Assignment1_EA.Models.Event>
 
-<h2>@ViewData["PageTitle"]</h2>
 
+
+@{
+    ViewData["Title"] = "Event Manager";
+}
+
+
+<!-- Table showing all events -->
 <table class="table">
 
     <tr>
@@ -11,6 +17,7 @@
         <th></th>
     </tr>
 
+    <!-- Loop through all events passed from controller -->
     @foreach (var ev in Model)
     {
         <tr>
@@ -19,10 +26,11 @@
             <td>@ev.location</td>
 
             <td>
+                <!-- Link to manage attendees for this event -->
                 <a asp-action="ManageAttendees"
                    asp-route-id="@ev.id"
                    class="btn btn-primary">
-                    Manage Attendees
+                    Register
                 </a>
             </td>
         </tr>
