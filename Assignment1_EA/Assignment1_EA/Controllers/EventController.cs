@@ -72,6 +72,7 @@ namespace Assignment1_EA.Controllers
                         Name = name,
                         Email = email
                     });
+                TempData["SuccessMessage"] = "Attendee registered!";
             }
             //Refreshes the page to reflect attendee registration and updated list
             return RedirectToAction(

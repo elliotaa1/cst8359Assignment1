@@ -1,10 +1,9 @@
 ﻿@model Assignment1_EA.Models.Event
-
+@{
+    ViewData["Title"] = "Manage Attendees - " + ViewData["EventName"];
+}
 <!-- Display event name -->
-<h2>@ViewData["EventName"]</h2>
-
-<!-- Signup form for attendees -->
-<h3>Signup Form</h3>
+<h2> Manage Attendees - @ViewData["EventName"]</h2>
 
 
 <form asp-action="Signup" method="post">
@@ -12,6 +11,13 @@
     <input type="hidden"
            name="eventId"
            value="@Model.id" />
+    <!-- Success Message -->
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["SuccessMessage"]
+        </div>
+    }
     <!-- Name input -->
     <div>
         <label>Name</label>
@@ -33,14 +39,20 @@
     <!-- Submit button -->
     <button type="submit"
             class="btn btn-success">
-        Register
+        Sign Up
     </button>
+    <!-- Back to Events button -->
+    <a asp-controller="Event"
+       asp-action="Index"
+       class="btn btn-secondary">
+        Back to Events
+    </a>
 
 </form>
 
 <hr />
 <!-- Display attendee list -->
-<h3>Attendees</h3>
+<h3>Attendees (@Model.Attendees.Count)</h3>
 <!-- Error checker for attendees -->
 @if (Model.Attendees == null || Model.Attendees.Count == 0)
 {
