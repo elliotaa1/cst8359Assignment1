@@ -12,7 +12,9 @@
         //Event location
         public string location { get; set; }
         //Store list of registered attendees per event
-        public List<UserHandler> Attendees { get; set; } = new List<UserHandler>();
+        public string BannerUrl { get; set; }
+
+        public List<Attendee> Attendees { get; set; } = new();
 
     }
 }
