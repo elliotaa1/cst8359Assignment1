@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Assignment1_EA.Models.Attendee>
+
+@{
+    ViewData["Title"] = "Attendees";
+}
+
+<h1>Attendees</h1>
+
+
+<p>
+    <a asp-action="Create"
+       asp-route-eventId="@ViewBag.EventId"
+       class="btn btn-primary">
+        Add Attendee
+    </a>
+</p>
+
+
+<table class="table">
+
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th></th>
+        </tr>
+    </thead>
+
+
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>
+                    @item.Name
+                </td>
+
+                <td>
+                    @item.Email
+                </td>
+
+
+                <td>
+
+                    <a asp-action="Edit"
+                       asp-route-id="@item.Id">
+                        Edit
+                    </a>
+                    |
+                    <a asp-action="Delete"
+                       asp-route-id="@item.Id">
+                        Delete
+                    </a>
+
+                </td>
+
+            </tr>
+        }
+
+    </tbody>
+
+</table>
