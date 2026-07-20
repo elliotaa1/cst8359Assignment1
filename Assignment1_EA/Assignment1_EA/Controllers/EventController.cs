@@ -1,5 +1,7 @@
-﻿using Assignment1_EA.Models;
+﻿using Assignment1_EA.Data;
+using Assignment1_EA.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
 namespace Assignment1_EA.Controllers
@@ -7,78 +9,72 @@ namespace Assignment1_EA.Controllers
     public class EventController : Controller
     {
         //To mimic databasing, stores data in memory and keeps it there
-        private static List<Event> events = new List<Event>()
-        {
-            //Event 1
-            new Event
-            {
-                id = 1,
-                title = "Comic Con",
-                date = new DateTime(2026, 6, 7),
-                location = "Ottawa"
-            },
-            //Event 2
-             new Event
-            {
-                id = 2,
-                title = "Hackathon",
-                date = new DateTime(2027, 2, 14),
-                location = "Toronto"
-            },
-             //Event 3
-            new Event
-            {
-                id = 3,
-                title = "Surrey Potluck",
-                date = new DateTime(2026, 8, 25),
-                location = "Vancouver"
-            }
-            //Event n....
+        private readonly ApplicationDbContext _context;
 
-        };
+        public EventController(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+
 
         /**
          * Displays the events hardcoded above
          */
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-
-            return View(events);
+            return View(await _context.Events.ToListAsync());
         }
         /**
          * Displays single event when selected
          */
-        public IActionResult ManageAttendees(int id)
+        public async Task<IActionResult> ManageAttendees(int id)
         {
-            var selectedEvent = events.FirstOrDefault(e => e.id == id); //Finds the event using LINQ
+            var selectedEvent = await _context.Events
+                .Include(e => e.Attendees)
+                .FirstOrDefaultAsync(e => e.id == id);
 
-            ViewData["EventName"] = selectedEvent?.title; //Stores event name to later display using ViewData
+            if (selectedEvent == null)
+            {
+                return NotFound();
+            }
 
-            return View(selectedEvent); //Bring selected event to view
+            ViewData["EventName"] = selectedEvent.title;
+
+            return View(selectedEvent);
         }
         /**
          * Handles form signup submissions for attendees
          */
         [HttpPost]
-        public IActionResult Signup(int eventId,string name,string email)
+        public async Task<IActionResult> Signup(int eventId, string name, string email)
         {
-            var selectedEvent = events.FirstOrDefault(e => e.id == eventId); // Grabs the selected event
+            var selectedEvent = await _context.Events
+                .Include(e => e.Attendees)
+                .FirstOrDefaultAsync(e => e.id == eventId);
 
-            if (selectedEvent != null) //Checks if event exists or not, then adds attendee
+            if (selectedEvent == null)
             {
-                selectedEvent.Attendees.Add(
-                    new UserHandler
-                    {
-                        Name = name,
-                        Email = email
-                    });
-                TempData["SuccessMessage"] = "Attendee registered!";
+                return NotFound();
             }
-            //Refreshes the page to reflect attendee registration and updated list
+
+
+            selectedEvent.Attendees.Add(new Attendee
+            {
+                Name = name,
+                Email = email,
+                EventId = eventId
+            });
+
+
+            await _context.SaveChangesAsync();
+
+
+            TempData["SuccessMessage"] = "Attendee registered!";
+
+
             return RedirectToAction(
                 "ManageAttendees",
                 new { id = eventId });
-
         }
     }
 }
