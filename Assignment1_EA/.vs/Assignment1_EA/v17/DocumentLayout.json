@@ -3,8 +3,18 @@
   "WorkspaceRootPath": "C:\\NET\\Assignment1\\Assignment1_EA\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/eaasqlserver.database.windows.net/eadb/eaadmin/SqlTable/dbo.Attendees.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/eaasqlserver.database.windows.net/eadb/eaadmin/SqlTable/dbo.Events.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|c:\\net\\assignment1\\assignment1_ea\\assignment1_ea\\views\\events\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|solutionrelative:assignment1_ea\\views\\events\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|c:\\net\\assignment1\\assignment1_ea\\assignment1_ea\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|solutionrelative:assignment1_ea\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|c:\\net\\assignment1\\assignment1_ea\\assignment1_ea\\views\\events\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -13,10 +23,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|c:\\net\\assignment1\\assignment1_ea\\assignment1_ea\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|solutionrelative:assignment1_ea\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|c:\\net\\assignment1\\assignment1_ea\\assignment1_ea\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|solutionrelative:assignment1_ea\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|c:\\net\\assignment1\\assignment1_ea\\assignment1_ea\\services\\blobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,32 +81,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "dbo.Attendees [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/eaasqlserver.database.windows.net/eadb/eaadmin/SqlTable/dbo.Attendees.sql",
+              "ToolTip": "dbo.Attendees [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-07-20T04:02:56.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dbo.Events [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/eaasqlserver.database.windows.net/eadb/eaadmin/SqlTable/dbo.Events.sql",
+              "ToolTip": "dbo.Events [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-07-20T04:02:19.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Views\\Events\\Index.cshtml",
               "RelativeDocumentMoniker": "Assignment1_EA\\Views\\Events\\Index.cshtml",
               "ToolTip": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Views\\Events\\Index.cshtml",
               "RelativeToolTip": "Assignment1_EA\\Views\\Events\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-07-20T03:49:53.028Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Views\\Events\\Create.cshtml",
-              "RelativeDocumentMoniker": "Assignment1_EA\\Views\\Events\\Create.cshtml",
-              "ToolTip": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Views\\Events\\Create.cshtml",
-              "RelativeToolTip": "Assignment1_EA\\Views\\Events\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-20T03:49:51.591Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "BlobService.cs",
               "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Services\\BlobService.cs",
               "RelativeDocumentMoniker": "Assignment1_EA\\Services\\BlobService.cs",
@@ -113,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Views\\Attendees\\Create.cshtml",
               "RelativeDocumentMoniker": "Assignment1_EA\\Views\\Attendees\\Create.cshtml",
@@ -126,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "AttendeesController.cs",
               "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Controllers\\AttendeesController.cs",
               "RelativeDocumentMoniker": "Assignment1_EA\\Controllers\\AttendeesController.cs",
@@ -139,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "DbInitializer.cs",
               "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Data\\DbInitializer.cs",
               "RelativeDocumentMoniker": "Assignment1_EA\\Data\\DbInitializer.cs",
@@ -152,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Program.cs",
               "RelativeDocumentMoniker": "Assignment1_EA\\Program.cs",
@@ -165,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\appsettings.json",
               "RelativeDocumentMoniker": "Assignment1_EA\\appsettings.json",
@@ -178,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Attendee.cs",
               "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Models\\Attendee.cs",
               "RelativeDocumentMoniker": "Assignment1_EA\\Models\\Attendee.cs",
@@ -191,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "EventViewModel.cs",
               "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Models\\EventViewModel.cs",
               "RelativeDocumentMoniker": "Assignment1_EA\\Models\\EventViewModel.cs",
@@ -204,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Assignment1_EA\\Data\\ApplicationDbContext.cs",
@@ -217,7 +230,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 3,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "Assignment1_EA\\Controllers\\EventsController.cs",
+              "ToolTip": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "Assignment1_EA\\Controllers\\EventsController.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAcwFEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T02:45:38.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Views\\Events\\Create.cshtml",
+              "RelativeDocumentMoniker": "Assignment1_EA\\Views\\Events\\Create.cshtml",
+              "ToolTip": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Views\\Events\\Create.cshtml",
+              "RelativeToolTip": "Assignment1_EA\\Views\\Events\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-20T03:49:51.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Assignment1_EA\\Views\\Home\\Index.cshtml",
@@ -230,20 +269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EventsController.cs",
-              "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Controllers\\EventsController.cs",
-              "RelativeDocumentMoniker": "Assignment1_EA\\Controllers\\EventsController.cs",
-              "ToolTip": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Controllers\\EventsController.cs",
-              "RelativeToolTip": "Assignment1_EA\\Controllers\\EventsController.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAUwFEAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-20T02:45:38.327Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Views\\Attendees\\Index.cshtml",
               "RelativeDocumentMoniker": "Assignment1_EA\\Views\\Attendees\\Index.cshtml",
@@ -256,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Models\\Event.cs",
               "RelativeDocumentMoniker": "Assignment1_EA\\Models\\Event.cs",
