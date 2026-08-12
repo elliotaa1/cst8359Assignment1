@@ -17,8 +17,9 @@ namespace Assignment1_EA.Models
         public string? BannerUrl { get; set; }
 
         public string? description { get; set; }
-        //Store list of registered attendees per event
 
+        public string? OrganizerId { get; set; }
+        //Store list of registered attendees per event
         public List<Attendee> Attendees { get; set; } = new();
 
     }

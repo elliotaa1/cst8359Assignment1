@@ -3,70 +3,64 @@
   "WorkspaceRootPath": "C:\\NET\\Assignment1\\Assignment1_EA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/eaasqlserver.database.windows.net/eadb/eaadmin/SqlTable/dbo.Attendees.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/eaasqlserver.database.windows.net/eadb/eaadmin/SqlTable/dbo.Events.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|c:\\net\\assignment1\\assignment1_ea\\assignment1_ea\\views\\events\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|solutionrelative:assignment1_ea\\views\\events\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|c:\\net\\assignment1\\assignment1_ea\\assignment1_ea\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|solutionrelative:assignment1_ea\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|c:\\net\\assignment1\\assignment1_ea\\assignment1_ea\\views\\events\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|solutionrelative:assignment1_ea\\views\\events\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|c:\\net\\assignment1\\assignment1_ea\\assignment1_ea\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|solutionrelative:assignment1_ea\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|c:\\net\\assignment1\\assignment1_ea\\assignment1_ea\\services\\blobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|solutionrelative:assignment1_ea\\services\\blobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|c:\\net\\assignment1\\assignment1_ea\\assignment1_ea\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|solutionrelative:assignment1_ea\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|c:\\net\\assignment1\\assignment1_ea\\assignment1_ea\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|solutionrelative:assignment1_ea\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|c:\\net\\assignment1\\assignment1_ea\\assignment1_ea\\controllers\\attendeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|solutionrelative:assignment1_ea\\controllers\\attendeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|c:\\net\\assignment1\\assignment1_ea\\assignment1_ea\\views\\attendees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|solutionrelative:assignment1_ea\\views\\attendees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|c:\\net\\assignment1\\assignment1_ea\\assignment1_ea\\views\\attendees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|solutionrelative:assignment1_ea\\views\\attendees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|c:\\net\\assignment1\\assignment1_ea\\assignment1_ea\\models\\eventviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|solutionrelative:assignment1_ea\\models\\eventviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|c:\\net\\assignment1\\assignment1_ea\\assignment1_ea\\models\\attendee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|solutionrelative:assignment1_ea\\models\\attendee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|c:\\net\\assignment1\\assignment1_ea\\assignment1_ea\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|solutionrelative:assignment1_ea\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|c:\\net\\assignment1\\assignment1_ea\\assignment1_ea\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|solutionrelative:assignment1_ea\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|c:\\net\\assignment1\\assignment1_ea\\assignment1_ea\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|solutionrelative:assignment1_ea\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Migrations\\20260812221851_Assignment3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assignment1_EA\\Migrations\\20260812221851_Assignment3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\obj\\Debug\\net8.0\\Assignment1_EA.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assignment1_EA\\obj\\Debug\\net8.0\\Assignment1_EA.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|c:\\net\\assignment1\\assignment1_ea\\assignment1_ea\\wwwroot\\js\\eventdetails.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|solutionrelative:assignment1_ea\\wwwroot\\js\\eventdetails.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|c:\\net\\assignment1\\assignment1_ea\\assignment1_ea\\controllers\\attendeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|solutionrelative:assignment1_ea\\controllers\\attendeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|c:\\net\\assignment1\\assignment1_ea\\assignment1_ea\\views\\events\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|solutionrelative:assignment1_ea\\views\\events\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|c:\\net\\assignment1\\assignment1_ea\\assignment1_ea\\views\\attendees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|solutionrelative:assignment1_ea\\views\\attendees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|c:\\net\\assignment1\\assignment1_ea\\assignment1_ea\\hub\\eventhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|solutionrelative:assignment1_ea\\hub\\eventhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|c:\\net\\assignment1\\assignment1_ea\\assignment1_ea\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|solutionrelative:assignment1_ea\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|c:\\net\\assignment1\\assignment1_ea\\assignment1_ea\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|solutionrelative:assignment1_ea\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|c:\\net\\assignment1\\assignment1_ea\\assignment1_ea\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|solutionrelative:assignment1_ea\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|c:\\net\\assignment1\\assignment1_ea\\assignment1_ea\\models\\attendee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B520AA5-0395-4463-9187-900A593A44D6}|Assignment1_EA\\Assignment1_EA.csproj|solutionrelative:assignment1_ea\\models\\attendee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -76,65 +70,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "dbo.Attendees [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/eaasqlserver.database.windows.net/eadb/eaadmin/SqlTable/dbo.Attendees.sql",
-              "ToolTip": "dbo.Attendees [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-07-20T04:02:56.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "dbo.Events [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/eaasqlserver.database.windows.net/eadb/eaadmin/SqlTable/dbo.Events.sql",
-              "ToolTip": "dbo.Events [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-07-20T04:02:19.956Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Views\\Events\\Index.cshtml",
-              "RelativeDocumentMoniker": "Assignment1_EA\\Views\\Events\\Index.cshtml",
-              "ToolTip": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Views\\Events\\Index.cshtml",
-              "RelativeToolTip": "Assignment1_EA\\Views\\Events\\Index.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-20T03:49:53.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BlobService.cs",
-              "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Services\\BlobService.cs",
-              "RelativeDocumentMoniker": "Assignment1_EA\\Services\\BlobService.cs",
-              "ToolTip": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Services\\BlobService.cs",
-              "RelativeToolTip": "Assignment1_EA\\Services\\BlobService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAiwDAAAAABAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "Assignment1_EA\\Data\\DbInitializer.cs",
+              "ToolTip": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "Assignment1_EA\\Data\\DbInitializer.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswBkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-20T03:46:27.958Z",
+              "WhenOpened": "2026-08-12T21:55:13.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "eventDetails.js",
+              "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\wwwroot\\js\\eventDetails.js",
+              "RelativeDocumentMoniker": "Assignment1_EA\\wwwroot\\js\\eventDetails.js",
+              "ToolTip": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\wwwroot\\js\\eventDetails.js",
+              "RelativeToolTip": "Assignment1_EA\\wwwroot\\js\\eventDetails.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-08-12T21:54:07.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Views\\Events\\Details.cshtml",
+              "RelativeDocumentMoniker": "Assignment1_EA\\Views\\Events\\Details.cshtml",
+              "ToolTip": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Views\\Events\\Details.cshtml",
+              "RelativeToolTip": "Assignment1_EA\\Views\\Events\\Details.cshtml",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAAANkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-12T21:51:49.242Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Views\\Attendees\\Create.cshtml",
-              "RelativeDocumentMoniker": "Assignment1_EA\\Views\\Attendees\\Create.cshtml",
-              "ToolTip": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Views\\Attendees\\Create.cshtml",
-              "RelativeToolTip": "Assignment1_EA\\Views\\Attendees\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAHAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Views\\Attendees\\Index.cshtml",
+              "RelativeDocumentMoniker": "Assignment1_EA\\Views\\Attendees\\Index.cshtml",
+              "ToolTip": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Views\\Attendees\\Index.cshtml",
+              "RelativeToolTip": "Assignment1_EA\\Views\\Attendees\\Index.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAcwD8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-20T03:31:36.309Z",
+              "WhenOpened": "2026-08-12T21:51:31.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "Assignment1_EA\\Controllers\\EventsController.cs",
+              "ToolTip": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "Assignment1_EA\\Controllers\\EventsController.cs",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAUwOMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T21:47:53.081Z",
               "EditorCaption": ""
             },
             {
@@ -145,150 +145,124 @@
               "RelativeDocumentMoniker": "Assignment1_EA\\Controllers\\AttendeesController.cs",
               "ToolTip": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Controllers\\AttendeesController.cs",
               "RelativeToolTip": "Assignment1_EA\\Controllers\\AttendeesController.cs",
-              "ViewState": "AgIAAL4AAAAAAAAAAADwv+EAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACIBAAAAAAAAAAASwDUBAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-20T03:30:23.438Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "DbInitializer.cs",
-              "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Data\\DbInitializer.cs",
-              "RelativeDocumentMoniker": "Assignment1_EA\\Data\\DbInitializer.cs",
-              "ToolTip": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Data\\DbInitializer.cs",
-              "RelativeToolTip": "Assignment1_EA\\Data\\DbInitializer.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-20T01:17:39.764Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Program.cs",
-              "RelativeDocumentMoniker": "Assignment1_EA\\Program.cs",
-              "ToolTip": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Program.cs",
-              "RelativeToolTip": "Assignment1_EA\\Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAASwCgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-20T00:57:48.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\appsettings.json",
-              "RelativeDocumentMoniker": "Assignment1_EA\\appsettings.json",
-              "ToolTip": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\appsettings.json",
-              "RelativeToolTip": "Assignment1_EA\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAADXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-07-20T00:57:25.913Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Attendee.cs",
-              "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Models\\Attendee.cs",
-              "RelativeDocumentMoniker": "Assignment1_EA\\Models\\Attendee.cs",
-              "ToolTip": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Models\\Attendee.cs",
-              "RelativeToolTip": "Assignment1_EA\\Models\\Attendee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-07T21:50:22.62Z",
+              "WhenOpened": "2026-08-12T21:42:10.2Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "EventViewModel.cs",
-              "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Models\\EventViewModel.cs",
-              "RelativeDocumentMoniker": "Assignment1_EA\\Models\\EventViewModel.cs",
-              "ToolTip": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Models\\EventViewModel.cs",
-              "RelativeToolTip": "Assignment1_EA\\Models\\EventViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Title": "EventHub.cs",
+              "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Hub\\EventHub.cs",
+              "RelativeDocumentMoniker": "Assignment1_EA\\Hub\\EventHub.cs",
+              "ToolTip": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Hub\\EventHub.cs",
+              "RelativeToolTip": "Assignment1_EA\\Hub\\EventHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-20T03:05:59.418Z",
+              "WhenOpened": "2026-08-12T21:41:22.187Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Assignment1_EA\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Assignment1_EA\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Program.cs",
+              "RelativeDocumentMoniker": "Assignment1_EA\\Program.cs",
+              "ToolTip": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Program.cs",
+              "RelativeToolTip": "Assignment1_EA\\Program.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAiwFYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-20T00:54:54.176Z",
+              "WhenOpened": "2026-08-12T21:36:21.151Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "EventsController.cs",
-              "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Controllers\\EventsController.cs",
-              "RelativeDocumentMoniker": "Assignment1_EA\\Controllers\\EventsController.cs",
-              "ToolTip": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Controllers\\EventsController.cs",
-              "RelativeToolTip": "Assignment1_EA\\Controllers\\EventsController.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAcwFEAAAAmAAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Assignment1_EA\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Assignment1_EA\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAcwGcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-12T22:16:33.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Assignment1_EA\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Assignment1_EA\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAcwEUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-12T22:13:06.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Assignment1_EA.AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\obj\\Debug\\net8.0\\Assignment1_EA.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Assignment1_EA\\obj\\Debug\\net8.0\\Assignment1_EA.AssemblyInfo.cs",
+              "ToolTip": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\obj\\Debug\\net8.0\\Assignment1_EA.AssemblyInfo.cs",
+              "RelativeToolTip": "Assignment1_EA\\obj\\Debug\\net8.0\\Assignment1_EA.AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-20T02:45:38.327Z",
+              "WhenOpened": "2026-08-12T22:07:56.185Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Views\\Events\\Create.cshtml",
-              "RelativeDocumentMoniker": "Assignment1_EA\\Views\\Events\\Create.cshtml",
-              "ToolTip": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Views\\Events\\Create.cshtml",
-              "RelativeToolTip": "Assignment1_EA\\Views\\Events\\Create.cshtml",
+              "DocumentIndex": 5,
+              "Title": "20260812221851_Assignment3.cs",
+              "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Migrations\\20260812221851_Assignment3.cs",
+              "RelativeDocumentMoniker": "Assignment1_EA\\Migrations\\20260812221851_Assignment3.cs",
+              "ToolTip": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Migrations\\20260812221851_Assignment3.cs",
+              "RelativeToolTip": "Assignment1_EA\\Migrations\\20260812221851_Assignment3.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-20T03:49:51.591Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Assignment1_EA\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Assignment1_EA\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-08T01:32:54.194Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Views\\Attendees\\Index.cshtml",
-              "RelativeDocumentMoniker": "Assignment1_EA\\Views\\Attendees\\Index.cshtml",
-              "ToolTip": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Views\\Attendees\\Index.cshtml",
-              "RelativeToolTip": "Assignment1_EA\\Views\\Attendees\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-20T03:36:39.71Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T22:18:52.081Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Assignment1_EA\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Assignment1_EA\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T21:34:47.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Attendee.cs",
+              "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Models\\Attendee.cs",
+              "RelativeDocumentMoniker": "Assignment1_EA\\Models\\Attendee.cs",
+              "ToolTip": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Models\\Attendee.cs",
+              "RelativeToolTip": "Assignment1_EA\\Models\\Attendee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T21:32:47.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Models\\Event.cs",
               "RelativeDocumentMoniker": "Assignment1_EA\\Models\\Event.cs",
               "ToolTip": "C:\\NET\\Assignment1\\Assignment1_EA\\Assignment1_EA\\Models\\Event.cs",
               "RelativeToolTip": "Assignment1_EA\\Models\\Event.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-07T21:47:22.009Z",
               "EditorCaption": ""
